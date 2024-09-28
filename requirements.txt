@@ -1,0 +1,42 @@
+altgraph @ file:///C:/b/abs_f2edualeyv/croot/altgraph_1670426107695/work
+backcall==0.2.0
+certifi @ file:///C:/b/abs_85o_6fm0se/croot/certifi_1671487778835/work/certifi
+colorama==0.4.6
+debugpy==1.7.0
+decorator==5.1.1
+entrypoints==0.4
+flit_core @ file:///opt/conda/conda-bld/flit-core_1644941570762/work/source/flit_core
+future @ file:///C:/b/abs_3dcibf18zi/croot/future_1677599891380/work
+importlib-metadata @ file:///C:/ci/importlib-metadata_1648562631189/work
+ipykernel==6.16.2
+ipython==7.34.0
+jedi==0.19.1
+jupyter_client==7.4.9
+jupyter_core==4.12.0
+matplotlib-inline==0.1.6
+nest-asyncio==1.6.0
+packaging @ file:///C:/b/abs_cfsup8ur87/croot/packaging_1671697442297/work
+parso==0.8.4
+pefile @ file:///C:/b/abs_feg_7trsni/croot/pefile_1670877329726/work
+pickleshare==0.7.5
+ply==3.11
+prompt_toolkit==3.0.47
+psutil==6.0.0
+Pygments==2.17.2
+pyinstaller @ file:///C:/b/abs_dbsfiidkbn/croot/pyinstaller_1670881068280/work
+pyinstaller-hooks-contrib @ file:///C:/b/abs_c2hemrb3nh/croot/pyinstaller-hooks-contrib_1670877320457/work
+PyQt5==5.15.7
+PyQt5-sip @ file:///C:/Windows/Temp/abs_d7gmd2jg8i/croots/recipe/pyqt-split_1659273064801/work/pyqt_sip
+python-dateutil==2.9.0.post0
+pywin32==306
+pywin32-ctypes @ file:///C:/ci/pywin32-ctypes_1594392691209/work
+pyzmq==26.0.3
+sip @ file:///C:/Windows/Temp/abs_b8fxd17m2u/croots/recipe/sip_1659012372737/work
+six==1.16.0
+toml @ file:///tmp/build/80754af9/toml_1616166611790/work
+tornado==6.2
+traitlets==5.9.0
+typing_extensions @ file:///C:/b/abs_89eui86zuq/croot/typing_extensions_1669923792806/work
+wcwidth==0.2.13
+wincertstore==0.2
+zipp @ file:///C:/b/abs_b9jfdr908q/croot/zipp_1672387552360/work
