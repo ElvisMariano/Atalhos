@@ -33,7 +33,9 @@ Um aplicativo em Python que fornece uma interface sobreposta para acessar rapida
 
 ## 📸 Capturas de Tela
 
-*Nota: Inclua aqui imagens ou GIFs mostrando o aplicativo em funcionamento.*
+![image](https://github.com/user-attachments/assets/5b7cf826-c138-4288-ab08-67a8a68cac30)
+![image](https://github.com/user-attachments/assets/fbec1816-b7e2-442c-9054-af7a108af998)
+
 
 ---
 
