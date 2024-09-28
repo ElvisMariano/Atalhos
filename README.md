@@ -1,8 +1,11 @@
+
 # Aplicativo de Atalhos Personalizados
 
 Um aplicativo em Python que fornece uma interface sobreposta para acessar rapidamente sites e aplicativos favoritos. A interface é minimalista e sempre fica no topo das outras janelas, permitindo acesso fácil e rápido aos seus atalhos personalizados.
 
-## Sumário
+---
+
+## 📋 Sumário
 
 - [Funcionalidades](#funcionalidades)
 - [Capturas de Tela](#capturas-de-tela)
@@ -14,132 +17,175 @@ Um aplicativo em Python que fornece uma interface sobreposta para acessar rapida
 - [Licença](#licença)
 - [Contato](#contato)
 
-## Funcionalidades
+---
+
+## 🛠 Funcionalidades
 
 - **Interface Sobreposta**: Janela sempre no topo, com design minimalista.
 - **Atalhos Personalizáveis**: Adicione, edite ou remova atalhos para sites ou aplicativos.
 - **Minimização para Ícone**: Ao minimizar, transforma-se em um ícone redondo na tela.
 - **Bandeja do Sistema**: Permanece ativo na bandeja do sistema quando fechado.
-- **Arrastar e Soltar**: Suporte a drag and drop para adicionar novos atalhos.
+- **Arrastar e Soltar**: Suporte para drag and drop para adicionar novos atalhos.
 - **Internacionalização (i18n)**: Suporte para múltiplos idiomas usando `QTranslator`.
 - **Atualização Automática (Esboço)**: Estrutura pronta para implementar verificação de atualizações.
 
-## Capturas de Tela
+---
+
+## 📸 Capturas de Tela
 
 *Nota: Inclua aqui imagens ou GIFs mostrando o aplicativo em funcionamento.*
 
-## Pré-requisitos
+---
+
+## ⚙️ Pré-requisitos
 
 - **Python 3.6 ou superior**
 - **PyQt5**: Biblioteca para criar interfaces gráficas.
 
-## Instalação
+---
+
+## 🚀 Instalação
 
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/seu-usuario/app-de-atalhos.git
-Navegue até o diretório do projeto:
+   git clone https://github.com/ElvisMariano/atalhos.git
+   ```
 
-bash
-Copiar código
-cd app-de-atalhos
-Crie um ambiente virtual (opcional, mas recomendado):
+2. **Navegue até o diretório do projeto:**
 
-bash
-Copiar código
-python -m venv venv
-Ative o ambiente virtual:
+   ```bash
+   cd app-de-atalhos
+   ```
 
-Windows:
+3. **Crie um ambiente virtual (opcional, mas recomendado):**
 
-bash
-Copiar código
-venv\Scripts\activate
-Linux/MacOS:
+   ```bash
+   python -m venv venv
+   ```
 
-bash
-Copiar código
-source venv/bin/activate
-Instale as dependências:
+4. **Ative o ambiente virtual:**
 
-bash
-Copiar código
-pip install -r requirements.txt
-Nota: Certifique-se de que o arquivo requirements.txt contenha PyQt5.
+   - **Windows:**
 
-Uso
-Execute o aplicativo:
+     ```bash
+     venv\Scripts\activate
+     ```
 
-bash
-Copiar código
-python main.py
-Interface Principal:
+   - **Linux/MacOS:**
 
-A janela principal aparecerá sobreposta às outras janelas.
-Use os botões de atalho para abrir sites ou aplicativos.
-Minimizar:
+     ```bash
+     source venv/bin/activate
+     ```
 
-Clique no botão amarelo para minimizar.
-A janela se transformará em um ícone redondo que pode ser movido pela tela.
-Dê um duplo clique no ícone para restaurar a janela principal.
-Fechar:
+5. **Instale as dependências:**
 
-Clique no botão vermelho para fechar.
-O aplicativo permanecerá em execução na bandeja do sistema.
-Clique no ícone da bandeja para restaurar.
-Personalização
-Adicionar, Editar ou Remover Atalhos
-Acessar as Configurações:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Clique no botão verde (configurações) na janela principal.
-Adicionar Atalho:
+   *Nota: Certifique-se de que o arquivo `requirements.txt` contenha `PyQt5`.*
 
-Clique em Adicionar.
-Insira o Nome e a URL ou caminho do aplicativo.
-Clique em OK.
-Editar Atalho:
+---
 
-Selecione um atalho na lista.
-Clique em Editar.
-Modifique o Nome e/ou a URL.
-Clique em OK.
-Remover Atalho:
+## 🎮 Uso
 
-Selecione um atalho na lista.
-Clique em Remover.
-Confirme a remoção.
-Arrastar e Soltar
-Adicionar Atalho Rápido:
+1. **Execute o aplicativo:**
 
-Arraste um arquivo executável ou atalho da área de trabalho diretamente para a janela principal.
-O atalho será automaticamente adicionado com o nome do arquivo.
-Contribuindo
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para reportar bugs ou sugerir melhorias. Para contribuir com código:
+   ```bash
+   python main.py
+   ```
 
-Faça um fork do projeto.
+2. **Interface Principal:**
 
-Crie uma branch para sua feature:
+   - A janela principal aparecerá sobreposta às outras janelas.
+   - Use os botões de atalho para abrir sites ou aplicativos.
 
-bash
-Copiar código
-git checkout -b minha-feature
-Commit suas alterações:
+3. **Minimizar:**
 
-bash
-Copiar código
-git commit -m 'Adiciona nova funcionalidade'
-Faça o push para a branch:
+   - Clique no botão amarelo para minimizar.
+   - A janela se transformará em um ícone redondo que pode ser movido pela tela.
+   - Dê um duplo clique no ícone para restaurar a janela principal.
 
-bash
-Copiar código
-git push origin minha-feature
-Abra um Pull Request.
+4. **Fechar:**
 
-Licença
-Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para detalhes.
+   - Clique no botão vermelho para fechar.
+   - O aplicativo permanecerá em execução na bandeja do sistema.
+   - Clique no ícone da bandeja para restaurar.
 
-Contato
-Nome: Seu Nome
-Email: seu-email@example.com
-GitHub: seu-usuario
+---
+
+## 🎨 Personalização
+
+### Adicionar, Editar ou Remover Atalhos
+
+1. **Acessar as Configurações:**
+
+   - Clique no botão verde (configurações) na janela principal.
+
+2. **Adicionar Atalho:**
+
+   - Clique em *Adicionar*.
+   - Insira o Nome e a URL ou caminho do aplicativo.
+   - Clique em *OK*.
+
+3. **Editar Atalho:**
+
+   - Selecione um atalho na lista.
+   - Clique em *Editar*.
+   - Modifique o Nome e/ou a URL.
+   - Clique em *OK*.
+
+4. **Remover Atalho:**
+
+   - Selecione um atalho na lista.
+   - Clique em *Remover*.
+   - Confirme a remoção.
+
+### Arrastar e Soltar
+
+1. **Adicionar Atalho Rápido:**
+
+   - Arraste um arquivo executável ou atalho da área de trabalho diretamente para a janela principal.
+   - O atalho será automaticamente adicionado com o nome do arquivo.
+
+---
+
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir *issues* para reportar bugs ou sugerir melhorias. Para contribuir com código:
+
+1. Faça um *fork* do projeto.
+2. Crie uma *branch* para sua feature:
+
+   ```bash
+   git checkout -b minha-feature
+   ```
+
+3. *Commit* suas alterações:
+
+   ```bash
+   git commit -m 'Adiciona nova funcionalidade'
+   ```
+
+4. Faça o *push* para a branch:
+
+   ```bash
+   git push origin minha-feature
+   ```
+
+5. Abra um *Pull Request*.
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+---
+
+## 📧 Contato
+
+- **Nome:** Elvis Mariano
+- **Email:** [admelvismariano@gmail.com](mailto:admelvismariano@gmail.com)
+- **GitHub:** [ElvisMariano](https://github.com/ElvisMariano)

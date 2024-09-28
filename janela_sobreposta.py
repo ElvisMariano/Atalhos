@@ -231,12 +231,7 @@ class JanelaSobreposta(QtWidgets.QWidget):
     def obter_sites_padrao(self):
         """Retorna um dicionário com os sites padrão."""
         return {
-            'PLM': 'PLM//',
-            'CRYSTAL': 'CR//',
-            'POPULIS': 'https://autoliv.populisservicos.com.br/',
-            'PARTS': 'Parts//',
             'CHATGPT': 'https://chat.openai.com/',
-            'GCWIN': r'\\brgo-gcwinmon01\programs_brgo\GCWin\GCWin.exe'
         }
 
     def mousePressEvent(self, event):
